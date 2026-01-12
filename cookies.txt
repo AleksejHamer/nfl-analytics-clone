@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+nfl.com	TRUE	/	FALSE	1999999999	nfl.v1v2.id	a5343497-57f6-4085-89a8-bc2667e27189
+cdns.us1.gigya.com	TRUE	/	FALSE	1999999999	gig_canary	next
+cdns.us1.gigya.com	TRUE	/	FALSE	1999999999	SameSite	None
+.onesignal.com	TRUE	/	FALSE	1999999999	__cf_bm	pZ5beroE4M0zpJf4s9q03s79Qa9jjVTwwh_B0fUQLIY-1768207867-1.0.1.1-8AtB1uzcnRGT1Jx8X0Rv31R9D5FvAZ.lQoG3Z.Cg62zsicrU7H2osZ0h_CRKYSIiUggzTz5yVmVltAv20nwvDeQ1v1.zGrZpzOk.9i.0ymM
+cdn.onesignal.com	TRUE	/	FALSE	1999999999	SameSite	None
+
