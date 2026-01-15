@@ -3,11 +3,13 @@
     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
     t=l.createElement(r);t.async=1;
     t.src="https://js.monitor.azure.com/scripts/b/ai.2.min.js";
-    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    y=l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t,y);
 }(window,document,"appInsights","script");
 
 appInsights("config", {
-    connectionString: "InstrumentationKey=2ef7b1d2-c44f-4b02-ad38-3af872b5433b;IngestionEndpoint=https://eastasia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://eastasia.livediagnostics.monitor.azure.com/;ApplicationId=23c9318c-f56f-4e3d-bec8-4b30948b83f5"
+    connectionString: "InstrumentationKey=2ef7b1d2-c44f-4b02-ad38-3af872b5433b;IngestionEndpoint=https://eastasia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://eastasia.livediagnostics.monitor.azure.com/;ApplicationId=23c9318c-f56f-4e3d-bec8-4b30948b83f5",
+    enableAutoRouteTracking: true
 });
 
 appInsights("trackPageView");
